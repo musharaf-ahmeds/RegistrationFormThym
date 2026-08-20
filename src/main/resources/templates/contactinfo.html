@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Information</title>
+</head>
+
+<body>
+
+<h2>Contact Information</h2>
+
+<form th:action="@{/contact-info}" method="post">
+
+    <label>Address:</label>
+    <input type="text" name="address">
+    <br><br>
+
+    <label>City:</label>
+    <input type="text" name="city">
+    <br><br>
+
+    <label>State:</label>
+    <input type="text" name="state">
+    <br><br>
+
+    <label>Country:</label>
+    <input type="text" name="country">
+    <br><br>
+
+    <label>Phone:</label>
+    <input type="text" name="phone">
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
