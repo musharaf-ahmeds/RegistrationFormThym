@@ -48,4 +48,9 @@ public class RegistrationController {
 
         return "success";
     }	
+    
+    
+    public void checkTest() {
+    	System.out.println("Working fine");
+    }
 }
